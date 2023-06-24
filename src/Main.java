@@ -15,6 +15,9 @@ public class Main {
         Collections.sort(doThis);
         System.out.println(doThis);
 
+        StreamMain task1v2 = new StreamMain();
+        task1v2.main();
+
         List<String> names = Arrays.asList("Jack", "Connor", "Harry", "George", "Samuel", "John");
         List<String> families = Arrays.asList("Evans", "Young", "Harris", "Wilson", "Davies", "Adamson", "Brown");
         Collection<Person> persons = new ArrayList<>();
